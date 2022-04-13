@@ -6,7 +6,7 @@ public String encode(String name){
 
 }
 public String decode(String name){
-        String deCodingName = name.replace("1", "e").replace("2", "u").replace("3", "i").replace("4", "0").replace("5", "a");
+        String deCodingName = name.replace("1", "e").replace("2", "u").replace("3", "i").replace("4", "o").replace("5", "a");
         String deCodingNameSecond = deCodingName.replace ("NOTFORYOU", "").replace("YES", "");
             return deCodingNameSecond;
 }
